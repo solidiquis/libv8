@@ -122,6 +122,7 @@ module Libv8
     end
 
     def print_build_info
+      binding.pry
       puts "Compiling v8 for #{libv8_arch}"
 
       puts "Using python #{python_version}"
